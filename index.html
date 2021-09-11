@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Hello World!</title>
+    <meta charset="utf-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="crypto">
+        <table>
+            <thead>
+                <tr>
+                    <th>Coin Name</th>
+                    <th>Change 24 hour</th>
+                    <th>High</th>
+                    <th>Low</th>
+                    <th>Volume</th>
+                    <th>Last Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="market"></td>
+                    <td id="change_24_hour"></td>
+                    <td id="high"></td>
+                    <td id="low"></td>
+                    <td id="volume"></td>
+                    <td id="last_price"></td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+    <button id="refresh" onclick="">Refresh</button>
+    <script src="renderer.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+body {
+    background-color: cadetblue;
+    padding: 1rem;
+}
+
+table {
+    border-collapse: collapse;
+    table-layout: auto;
+}
+
+th {
+    border-bottom: 1px solid #ddd;
+    background-color: #04AA6D;
+    color: white;
+}
+td {
+    border-bottom: 1px solid #ddd;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    width: 4rem;
+    height: 2rem;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+#refresh{
+    border-radius: 1em;
+    background-color: cornsilk;
+    color:crimson;
+}
