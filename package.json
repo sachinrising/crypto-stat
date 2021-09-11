@@ -11,6 +11,10 @@
   },
   "author": "Sachin Srivastava",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sachinrising/crypto-stat"
+  },
   "devDependencies": {
     "@electron-forge/cli": "^6.0.0-beta.60",
     "@electron-forge/maker-deb": "^6.0.0-beta.60",
